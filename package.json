@@ -4,18 +4,18 @@
   "description": "### Install",
   "main": "dist/angular-module-tree.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JulianWielga/angular-module-shim.git"
+    "url": "https://github.com/JulianWielga/angular-module-tree.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JulianWielga/angular-module-shim/issues"
+    "url": "https://github.com/JulianWielga/angular-module-tree/issues"
   },
-  "homepage": "https://github.com/JulianWielga/angular-module-shim",
+  "homepage": "https://github.com/JulianWielga/angular-module-tree",
   "devDependencies": {
     "coffee-script": "^1.9.2",
     "gulp": "^3.8.11",
