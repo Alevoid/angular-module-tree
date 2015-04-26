@@ -5,6 +5,7 @@ originalModule = angular.module
 
 createNamespace = (name) ->
 	if parent = name.split('.').slice(0,-1).join('.')
+		return if parent is 'ng'
 		try
 			module = originalModule parent
 			if module.requires.indexOf(name) < 0

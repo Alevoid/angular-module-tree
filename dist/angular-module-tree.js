@@ -10,6 +10,9 @@ originalModule = angular.module;
 createNamespace = function(name) {
   var module, parent;
   if (parent = name.split('.').slice(0, -1).join('.')) {
+    if (parent === 'ng') {
+      return;
+    }
     try {
       module = originalModule(parent);
       if (module.requires.indexOf(name) < 0) {
